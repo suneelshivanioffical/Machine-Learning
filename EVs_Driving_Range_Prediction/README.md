@@ -17,7 +17,6 @@ https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-datas
 - Pandas
 - NumPy
 - Scikit-Learn
-- Streamlit
 - Pickle
 
 ## Model
