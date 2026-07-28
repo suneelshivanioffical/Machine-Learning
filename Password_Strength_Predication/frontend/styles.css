@@ -1,0 +1,487 @@
+/* ==========================
+   Google Font
+========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* ==========================
+   Reset
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+/* ==========================
+   Body
+========================== */
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+    background:
+        radial-gradient(circle at top left,#4338ca 0%,transparent 35%),
+        radial-gradient(circle at bottom right,#0f766e 0%,transparent 30%),
+        #0f172a;
+
+    color:#fff;
+
+}
+
+
+/* ==========================
+   Main Card
+========================== */
+
+.container{
+
+    width:100%;
+    max-width:750px;
+
+    background:rgba(17,24,39,.85);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:40px;
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.45);
+
+}
+
+
+/* ==========================
+   Heading
+========================== */
+
+h1{
+
+    text-align:center;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+h1 i{
+
+    color:#60a5fa;
+
+    margin-right:10px;
+
+}
+
+
+.subtitle{
+
+    text-align:center;
+
+    color:#cbd5e1;
+
+    line-height:1.7;
+
+    margin-bottom:35px;
+
+}
+
+
+/* ==========================
+   Password Input
+========================== */
+
+.input-box{
+
+    display:flex;
+
+    align-items:center;
+
+    background:#1e293b;
+
+    border:2px solid transparent;
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+}
+
+
+.input-box:focus-within{
+
+    border-color:#3b82f6;
+
+    box-shadow:0 0 18px rgba(59,130,246,.35);
+
+}
+
+
+.input-box input{
+
+    flex:1;
+
+    background:transparent;
+
+    color:white;
+
+    border:none;
+
+    outline:none;
+
+    padding:18px;
+
+    font-size:17px;
+
+}
+
+
+.input-box input::placeholder{
+
+    color:#94a3b8;
+
+}
+
+
+.input-box button{
+
+    width:60px;
+
+    height:60px;
+
+    border:none;
+
+    background:transparent;
+
+    color:#94a3b8;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+
+.input-box button:hover{
+
+    color:#60a5fa;
+
+}
+
+
+/* ==========================
+   Progress Bar
+========================== */
+
+.progress{
+
+    margin-top:25px;
+
+    width:100%;
+
+    height:14px;
+
+    background:#243244;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+}
+
+
+.progress-fill{
+
+    width:0%;
+
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #ef4444,
+        #f59e0b,
+        #22c55e
+    );
+
+    transition:.45s;
+
+}
+
+
+/* ==========================
+   Strength Card
+========================== */
+
+.strength-card{
+
+    margin-top:25px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    padding:18px;
+
+    border-radius:14px;
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.06);
+
+}
+
+
+/* ==========================
+   Info Cards
+========================== */
+
+.card{
+
+    margin-top:28px;
+
+    background:#111827;
+
+    border-radius:16px;
+
+    padding:24px;
+
+    border:1px solid rgba(255,255,255,.06);
+
+}
+
+
+.card h2{
+
+    margin-bottom:18px;
+
+    color:#60a5fa;
+
+    font-size:21px;
+
+}
+
+
+/* ==========================
+   Checklist
+========================== */
+
+.checklist{
+
+    list-style:none;
+
+}
+
+
+.checklist li{
+
+    padding:10px 0;
+
+    font-size:16px;
+
+    color:#e5e7eb;
+
+    transition:.3s;
+
+}
+
+
+/* JS will add this class */
+
+.valid{
+
+    color:#22c55e !important;
+
+    font-weight:600;
+
+}
+
+
+/* JS will add this class */
+
+.invalid{
+
+    color:#ef4444 !important;
+
+}
+
+
+/* ==========================
+   Suggestions
+========================== */
+
+#suggestions{
+
+    line-height:1.8;
+
+    color:#d1d5db;
+
+    font-size:15px;
+
+}
+
+
+/* ==========================
+   Model Performance
+========================== */
+
+.performance-section{
+
+    margin-top:18px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:16px;
+
+}
+
+
+.performance-box{
+
+    background:#f8fafc;
+
+    border-radius:14px;
+
+    padding:14px 10px;
+
+    text-align:center;
+
+    border:1px solid rgba(15,23,42,.08);
+
+}
+
+
+.performance-value{
+
+    display:block;
+
+    color:#4f46e5;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    line-height:1.2;
+
+}
+
+
+.performance-label{
+
+    display:block;
+
+    margin-top:6px;
+
+    color:#64748b;
+
+    font-size:12px;
+
+    line-height:1.2;
+
+}
+
+
+/* ==========================
+   Badge Colours
+========================== */
+
+.weak{
+
+    color:#ef4444;
+
+}
+
+.medium{
+
+    color:#f59e0b;
+
+}
+
+.strong{
+
+    color:#22c55e;
+
+}
+
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:768px){
+
+    body{
+
+        padding:20px;
+
+    }
+
+    .container{
+
+        padding:28px;
+
+    }
+
+    h1{
+
+        font-size:28px;
+
+    }
+
+    .subtitle{
+
+        font-size:15px;
+
+    }
+
+    .strength-card{
+
+        font-size:18px;
+
+    }
+
+    .card h2{
+
+        font-size:18px;
+
+    }
+
+    .performance-section{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

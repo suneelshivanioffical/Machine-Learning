@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Password Strength Analyzer</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>
+            <i class="fa-solid fa-lock"></i>
+            Password Strength Predication
+        </h1>
+
+        <p class="subtitle">
+            Create a strong password to protect your online accounts.
+            Get instant model-powered feedback as you type.
+        </p>
+
+        <!-- Password Input -->
+
+        <div class="input-box">
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Create a strong password...">
+
+            <button id="toggleBtn">
+                <i class="fa-solid fa-eye"></i>
+            </button>
+
+        </div>
+
+        <!-- Progress Bar -->
+
+        <div class="progress">
+
+            <div
+                class="progress-fill"
+                id="progressBar">
+            </div>
+
+        </div>
+
+        <!-- Strength Badge -->
+
+        <div class="strength-card">
+
+            <span id="emoji">⚪</span>
+
+            <span id="strengthText">
+                Waiting...
+            </span>
+
+        </div>
+
+        <!-- Password Checklist -->
+
+        <div class="card">
+
+            <h2>
+                ✅ Password Checklist
+            </h2>
+
+            <ul class="checklist">
+
+                <li id="length">
+                    ❌ At least 12 characters
+                </li>
+
+                <li id="upper">
+                    ❌ Uppercase letter
+                </li>
+
+                <li id="lower">
+                    ❌ Lowercase letter
+                </li>
+
+                <li id="number">
+                    ❌ Number
+                </li>
+
+                <li id="special">
+                    ❌ Special character
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- Suggestions -->
+
+        <div class="card">
+
+            <h2>
+                💡 Suggestions
+            </h2>
+
+            <div id="suggestions">
+
+                Start typing your password...
+
+            </div>
+
+        </div>
+
+        <!-- Model Performance -->
+
+        <div class="performance-section">
+
+            <div class="performance-box">
+                <span class="performance-value">97.9%</span>
+                <span class="performance-label">Accuracy</span>
+            </div>
+
+            <div class="performance-box">
+                <span class="performance-value">TF-IDF</span>
+                <span class="performance-label">Feature Extraction</span>
+            </div>
+
+            <div class="performance-box">
+                <span class="performance-value">XGBoost</span>
+                <span class="performance-label">ML Algorithm</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
