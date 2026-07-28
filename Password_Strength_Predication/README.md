@@ -24,7 +24,9 @@ The trained ML model is deployed through a **FastAPI backend**, connected with a
 
 ## Demo
 
-![]()
+Link: https://suneelshivanioffical.github.io/Password_Strength_Predication/
+
+![](https://github.com/suneelshivanioffical/Machine-Learning/blob/main/Password_Strength_Predication/Password_Strength_Predication_demo.gif)
 
 ---
 
