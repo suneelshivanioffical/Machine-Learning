@@ -8,9 +8,9 @@ The model, trained on synthesized labelled customer intent data, is deployed as 
 
 ## Demo
 
-Link:
+Link: https://intentclassification-svm.streamlit.app/
 
-![]()
+![](https://github.com/suneelshivanioffical/Machine-Learning/blob/main/IntentClassification_SVM/IntentClassifcation-svm-demo.png)
 
 ## Dataset
 
