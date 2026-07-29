@@ -8,7 +8,8 @@ The model trained on historical maritime trade data, is deployed as an interacti
 
 ## Demo
 
-Link: 
+Link: https://freightcost-predication.streamlit.app
+
 ![](https://github.com/suneelshivanioffical/Machine-Learning/blob/main/Shipping_Cost_Predication/shippingCost-ui-demo.png)
 
 ## Dataset
