@@ -1,0 +1,136 @@
+/* ===============================
+   Background Image
+================================ */
+
+.stApp {
+    background-image: url("https://www.securonix.com/wp-content/uploads/2025/08/BRBRAIP_hero_1920x1080.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ===============================
+   Main Container
+================================ */
+
+.block-container {
+    max-width: 1200px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+/* ===============================
+   Title
+================================ */
+
+h1 {
+    color: white !important;
+    text-align: left;
+}
+
+/* ===============================
+   Labels
+================================ */
+
+label {
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/* ===============================
+   Paragraph
+================================ */
+
+p {
+    color: white;
+}
+
+/* ===============================
+   Text Area
+================================ */
+
+textarea {
+    border-radius: 12px !important;
+}
+
+/* ===============================
+   Button
+================================ */
+
+.stButton > button {
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+
+    background: #2959be;
+    color: white !important;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    border: none;
+
+    transition: .3s;
+}
+
+.stButton > button:hover {
+    background: #003ecf;
+    color: white !important;
+}
+
+/* ===============================
+   Mini Cards
+================================ */
+
+.mini-card{
+    width:100%;
+    height:60px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.25);
+    border-radius:12px;
+}
+
+.card-title{
+    color:#ffffff;
+    font-size:16px;
+    font-weight:700;
+    line-height:1;
+}
+
+.card-subtitle{
+    color:#e6e6e6;
+    font-size:10px;
+    margin-top:4px;
+    line-height:1;
+}
+
+/* ===============================
+   Success & Info Messages
+================================ */
+
+div[data-testid="stAlert"] {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.stAlert p {
+    color: rgb(255, 255, 255) !important;
+    text-align: left !important;
+}
+
+/* ===============================
+   Align Cards with Button
+================================ */
+
+div[data-testid="column"]{
+    display:flex;
+    align-items:end;
+}
