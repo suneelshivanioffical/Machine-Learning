@@ -22,10 +22,6 @@ encoder_path = os.path.join(
 model = pickle.load(open(model_path, "rb"))
 encoder = pickle.load(open(encoder_path, "rb"))
 
-# Load model
-model = pickle.load(open("models/ShippingCostPredication.pkl", "rb"))
-encoder = pickle.load(open("models/encoder.pkl", "rb"))
-
 # Page configuration
 st.set_page_config(page_title="Shipping Cost Prediction",page_icon="🚢",layout="centered")
 
