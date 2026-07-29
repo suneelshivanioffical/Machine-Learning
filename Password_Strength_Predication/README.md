@@ -18,6 +18,10 @@ Link: https://suneelshivanioffical.github.io/Password_Strength_Predication/
 
 ## Dataset
 
+```
+https://github.com/suneelshivanioffical/Machine-Learning/tree/main/Password_Strength_Predication/data
+```
+
 The dataset contains 669,640 labelled passwords, where each password is assigned one of three strength categories. It is used to train a supervised machine learning model capable of predicting password strength based on character patterns and complexity.
 
 The **password** column serves as the input feature, while the **strength** column is used as the target variable for classification.
